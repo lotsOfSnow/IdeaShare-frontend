@@ -1,0 +1,66 @@
+{
+  "home": {
+    "route": "/",
+    "display": "Home"
+  },
+  "articles": {
+    "route": "/articles",
+    "display": "Articles"
+  },
+  "article": {
+    "route": "/articles/:id",
+    "display": "Article"
+  },
+  "editArticle": {
+    "route": "/articles/:id/edit",
+    "display:": "Edit Article"
+  },
+  "newArticle": {
+    "route": "/newArticle",
+    "display": "New Article"
+  },
+  "signIn": {
+    "route": "/login",
+    "display": "Login"
+  },
+  "signUp": {
+    "route": "/register",
+    "display": "Register"
+  },
+  "userProfile": {
+    "route": "/users/:username",
+    "display": "Profile"
+  },
+  "users": {
+    "route": "/users",
+    "display": "Users"
+  },
+  "accountSettings": {
+    "default": {
+      "route": "/settings",
+      "display": "Settings"
+    },
+    "general": {
+      "route": "/settings/general",
+      "display": "General"
+    },
+    "security": {
+      "route": "/settings/security",
+      "display": "Security"
+    }
+  },
+  "userDashboard": {
+    "base": {
+      "route": "/dashboard",
+      "display": "Dashboard"
+    },
+    "articles": {
+      "route": "/articles",
+      "display": "Articles"
+    },
+    "comments": {
+      "route": "/comments",
+      "display": "Comments"
+    }
+  }
+}
