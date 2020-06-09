@@ -1,5 +1,7 @@
 # IdeaShare Frontend
 
+Live version: [here](https://www.ideashare.mbugala.me/)
+
 This project is the Web UI for [IdeaShare API](https://github.com/lotsOfSnow/IdeaShare-api). It was written in Typescript using React and Material UI. Some of the used technologies include:
 * Redux
 * Hooks
