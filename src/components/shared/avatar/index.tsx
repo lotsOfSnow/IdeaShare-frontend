@@ -33,7 +33,7 @@ export const CustomAvatar: React.FC<CustomAvatarProps> = ({
       case "very large":
         return 9;
       case "huge":
-        return 15;
+        return 17;
       default:
         return 5;
     }
