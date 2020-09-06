@@ -18,7 +18,7 @@ export const getUser = (username: string): RouteMethod => {
 };
 
 export const updateUser = (username: string): RouteMethod => {
-  return { route: `${getApiUrl()}/users/${username}`, method: "POST" };
+  return { route: `${getApiUrl()}/users/${username}`, method: "PATCH" };
 };
 
 export const getArticlesByUser = (username: string): RouteMethod => {
@@ -76,7 +76,7 @@ export const createArticle = (): RouteMethod => {
 };
 
 export const updateArticle = (articleId: number): RouteMethod => {
-  return { route: `${getApiUrl()}/articles/${articleId}`, method: "POST" };
+  return { route: `${getApiUrl()}/articles/${articleId}`, method: "PATCH" };
 };
 
 export const deleteArticle = (articleId: number): RouteMethod => {
