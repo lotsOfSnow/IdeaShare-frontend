@@ -1,6 +1,6 @@
 {
   "local": {
-    "apiUrl": "https://localhost:5000/api/v1",
-    "imagesUrl": "https://localhost:5000/images"
+    "apiUrl": "https://localhost:5001/api/v1",
+    "imagesUrl": "https://localhost:5001/images"
   }
 }
