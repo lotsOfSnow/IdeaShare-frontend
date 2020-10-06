@@ -50,6 +50,7 @@ const Security: React.FC<SecurityProps> = ({
                 label="Current password"
                 fullWidth
                 margin="normal"
+                type="password"
                 InputLabelProps={{
                   shrink: true,
                 }}
@@ -66,6 +67,7 @@ const Security: React.FC<SecurityProps> = ({
                 id="standard-full-width"
                 label="New password"
                 fullWidth
+                type="password"
                 margin="normal"
                 InputLabelProps={{
                   shrink: true,
@@ -82,6 +84,7 @@ const Security: React.FC<SecurityProps> = ({
                 id="standard-full-width"
                 label="Retype new password"
                 fullWidth
+                type="password"
                 margin="normal"
                 InputLabelProps={{
                   shrink: true,
